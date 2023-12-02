@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(135deg, #00b7d4, #505488, #2f3f80, #161569, #5a4894, #a950a1, #ff7cae, #fc8dce, #f59fea);
+    background-size: 500%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .contenedor {
+        width: 90%; /* Cambiar el ancho en pantallas más pequeñas */
+        margin: 10px auto;
+    }
+}
+
+
+
+#section-1{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.contenedor {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, .37);
+    text-align: center;
+}
+
+.contenedor .checkbox {
+    width: 100%;
+}
+
+.contenedor .checkbox ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Acomodar en varias filas en pantallas pequeñas */
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.contenedor .checkbox ul li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 150px; /* Ajustar el ancho de los cuadrados de participantes */
+    text-align: center;
+}
+
+.contenedor .checkbox ul li label {
+    display: inline-block;
+    background: #bd1cde;
+    border: 2px solid #b1b2cf;
+    color: #fff;
+    border-radius: 25px;
+    transition: .2s all ease;
+    padding: 8px 12px;
+}
+
+.contenedor .checkbox ul li label:hover {
+    border: 1px solid #6f03da;
+}
+
+.contenedor .checkbox ul li input[type="checkbox"]:checked + label {
+    border: 1px solid #6f03da;
+    background: #6f03da;
+    color: #fff;
+}
+
+.contenedor .checkbox ul li input[type="checkbox"] {
+    opacity: 0;
+}
+#tab-carouselExampleIndicators{
+    margin-top: 5%;
+    opacity: 120%;
+    
+}
+
+#tab-carouselExampleIndicators .carousel-inner img {
+    filter: grayscale(100%) brightness(80%) opacity(0.8);
+}
