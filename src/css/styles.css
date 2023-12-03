@@ -74,12 +74,33 @@ body {
 .contenedor .checkbox ul li input[type="checkbox"] {
     opacity: 0;
 }
-#tab-carouselExampleIndicators{
+#carouselExampleIndicators{
     margin-top: 5%;
     opacity: 120%;
     
 }
 
-#tab-carouselExampleIndicators .carousel-inner img {
+#carouselExampleIndicators .carousel-inner img {
     filter: grayscale(100%) brightness(80%) opacity(0.8);
+}
+
+#separacion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+}
+#eventos{
+
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, .37);
+    text-align: center;
 }
