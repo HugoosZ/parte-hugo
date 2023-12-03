@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+  }
+
+  nav a:hover {
+    background-color: #c2c2c2;
+  }
+
+  
+  #navbar-logo{
+    width: 200px;
+    height: auto; 
+  }
+  
+  #img-2{
+    width: 500px;
+    height: auto;
+    justify-content: right;
+  }
+
+#header-1{
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #000000;
+}
+
+.separacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Añade esta línea para centrar verticalmente */
+  margin-top: 5%;
+}
+
+#img-2 {
+  width: 500px;
+  height: auto;
+}
+
+#text-1 {
+  padding: 10px;
+  font-size: 16px; /* Ajusta el tamaño del texto según sea necesario */
+  margin-left: 100px;
+  margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
+  color: #000000;
+}

@@ -1,0 +1,53 @@
+
+body {
+    padding: 25px;
+    margin: 25px;
+    position: relative;
+}
+
+p {
+    font-family: Arial;
+    font-size: 40px;
+    color: #000000;
+    margin-top: 100px;
+    cursor: none;
+}
+p span {
+    display: inline-block;
+    -webkit-transition: all 0.1s ease-out;
+    position: relative;
+}
+
+p span::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Ajusta según sea necesario */
+    right: -10px; /* Ajusta según sea necesario */
+    bottom: -10px; /* Ajusta según sea necesario */
+    left: -10px; /* Ajusta según sea necesario */
+    background-color: transparent;
+    transition: background-color 0.3s ease-out;
+    cursor: none;
+}
+
+p span:hover::before {
+    background-color: transparent;
+    cursor: none;
+}
+
+p span:hover {
+    -webkit-transform: scale(2.0);
+    cursor: pointer;
+    background-color: transparent;
+    cursor: none;
+}
+
+.magnifier {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(189, 175, 175, 0.2);
+    border-radius: 50%;
+    border: 2px solid #767070; /* Puedes ajustar el grosor y el color del borde según tus preferencias */
+    pointer-events: none; /* Permite al mouse interactuar con los elementos detrás del círculo */
+}
