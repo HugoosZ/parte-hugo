@@ -31,7 +31,7 @@
                     const spanRect = this.getBoundingClientRect();
                     const spanX = spanRect.left + spanRect.width / 2;
                     const spanY = spanRect.top + spanRect.height / 2; 
-                    const distance = Math.sqrt(Math.pow(spanX - mouseX, 2) + Math.pow(spanY - mouseY, 2));
+                    const distance = Math.sqrt(Math.pow(spanX - mouseX, 2)-40 + Math.pow(spanY - mouseY, 2)-40);
 
                     if (distance < reactionRadius) {
                         $(this).find('::before').css('background-color', 'yellow');

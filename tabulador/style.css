@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p mark {
+    background:none;
+    position: static;
+}
+p mark:hover {
+    font-size: 250%;
+    cursor: none;
+
+}
+
+.magnifier {
+    position: absolute;
+    width: 100px; /* Ancho del magnifier */
+    height: 100px; /* Altura del magnifier */
+    background-color: rgba(233, 233, 241, 0.3); /* Color del magnifier */
+    border: 2px solid rgba(207, 207, 221, 0.37); /* Borde del magnifier */
+    border-radius: 50%; /* Forma redonda */
+    pointer-events: none; /* Permite clics "pasar" a través del magnifier */
+}
+
+/* Estilos para el contenedor principal utilizando Flexbox */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos para cada div dentro del contenedor */
+#container > div {
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Espaciado entre los divs */
+    border: 1px solid #ccc; /* Borde para visualización */
+    padding: 10px; /* Espaciado interno */
+}
+
+#tab{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(104, 196, 196);
+    margin-top: 50px;
+}
+
+#tab-1{
+    width: 20%;
+    height: 400px;
+    background-color: rgb(99, 224, 16);
+    margin-top: 50px;
+}

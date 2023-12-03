@@ -1,9 +1,32 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+  
   }
 
+.boton-redondo {
+    width: 50px;
+    height: 50px;
+    background-color: #f42100;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
 
+.boton-redondo-1 {
+  width: 80px;
+  height: 50px;
+  background-color: #f42100;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
   nav {
     display: flex;
     justify-content: center;
@@ -60,4 +83,25 @@ body {
   margin-left: 100px;
   margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
   color: #000000;
+}
+#text-2 {
+  padding: 10px;
+  font-size: 10px; /* Ajusta el tamaño del texto según sea necesario */
+  margin-left: 100px;
+  margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
+  color: #000000;
+}
+#text-3 {
+  padding: 10px;
+  font-size: 5px; /* Ajusta el tamaño del texto según sea necesario */
+  margin-left: 100px;
+  margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
+  color: #000000;
+}
+.botones-container {
+  display: flex;
+  justify-content: space-around; /* Puedes usar 'space-between' para dejar espacio en los extremos */
+  align-items: center;
+  overflow-x: 10px;
+  margin-left: 100px;
 }
